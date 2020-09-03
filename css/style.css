@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: #FFFFFF;
+  color: #5A7184;
+}
+
+.header {
+  background-color: #ffffff;
+}
+
+.header-container {
+  display: flex;
+}
+/*# sourceMappingURL=style.css.map */
