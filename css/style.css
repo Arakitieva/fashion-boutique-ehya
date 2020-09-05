@@ -24,6 +24,14 @@ body {
   color: #5A7184;
 }
 
+.second-heading {
+  font-family: HKGrotesk;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 60px;
+}
+
 button:focus {
   outline: none;
 }
@@ -565,5 +573,86 @@ template {
   font-size: 16px;
   line-height: 20px;
   color: #183B56;
+}
+
+.collection {
+  padding-top: 120px;
+  padding-bottom: 145px;
+}
+
+.collection-container {
+  display: flex;
+  max-width: 1140px;
+  margin: auto;
+}
+
+.collection-image {
+  display: flex;
+  flex-shrink: 0;
+}
+
+.collection-image__vertical {
+  width: 320px;
+  height: 490px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.collection-image__right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 490px;
+  margin-left: 30px;
+}
+
+.collection-image__horizontal {
+  height: 230px;
+  width: 320px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.collection-info {
+  margin-left: 58px;
+  margin-bottom: 24px;
+  color: #183B56;
+}
+
+.collection-info__title {
+  margin-top: 10px;
+  margin-bottom: 24px;
+  color: #183B56;
+}
+
+.collection-info__description {
+  max-width: 392px;
+  margin-top: 0;
+  margin-bottom: 32px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 36px;
+  color: #5A7184;
+}
+
+.collection-info__link {
+  color: #1565D8;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.collection-info__link:hover {
+  color: #183B56;
+}
+
+.collection-info__icon {
+  width: 13px;
+  height: 16px;
+  margin-left: 30px;
 }
 /*# sourceMappingURL=style.css.map */
