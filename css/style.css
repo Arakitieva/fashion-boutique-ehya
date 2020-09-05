@@ -655,4 +655,142 @@ template {
   height: 16px;
   margin-left: 30px;
 }
+
+.trending-container {
+  max-width: 1135px;
+  margin: auto;
+  padding-bottom: 150px;
+}
+
+.trending-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.trending-info__title {
+  margin: 0;
+  color: #183B56;
+}
+
+.tabs {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.tabs__item {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25p;
+  margin-left: 38px;
+  cursor: pointer;
+}
+
+.tabs__item--active {
+  font-style: normal;
+  font-weight: bold;
+  color: #183B56;
+}
+
+.tabs-content {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.tabs-content__item--active {
+  display: block;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 49px;
+  min-height: 441px;
+  text-decoration: none;
+}
+
+.card-item__image {
+  width: 260px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 8px;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+.card-item__title {
+  color: #183B56;
+  font-family: HKGrotesk;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  margin-left: 14px;
+}
+
+.card-item__price-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-item-price {
+  color: #5A7184;
+  margin-left: 14px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 36px;
+}
+
+.card-item__cart {
+  width: 23px;
+  height: 23px;
+  cursor: pointer;
+}
+
+.card-item__more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 260px;
+  height: 350px;
+  background-color: #1565D8;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.card-item__more-image {
+  width: 28px;
+  height: 28px;
+  margin-bottom: 25px;
+}
+
+.card-item__more-text {
+  font-family: HKGrotesk;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.card-item__link {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-decoration: none;
+  color: #ffffff;
+  cursor: pointer;
+}
 /*# sourceMappingURL=style.css.map */

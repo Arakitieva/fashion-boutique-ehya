@@ -1,0 +1,105 @@
+.trending
+  &-container
+    max-width: 1135px 
+    margin: auto
+    padding-bottom: 150px
+  &-info
+    display: flex
+    justify-content: space-between
+    &__title
+      margin: 0
+      color: $primary
+.tabs
+  display: flex
+  align-items: center
+  padding: 0
+  margin: 0
+  list-style-type: none
+  &__item
+    font-style: normal
+    font-weight: normal
+    font-size: 18px
+    line-height: 25p
+    margin-left: 38px
+    cursor: pointer
+    &--active
+      font-style: normal
+      font-weight: bold
+      color: $primary
+  &-content
+    padding: 0
+    margin: 0
+    list-style-type: none
+    &__item
+      &--active
+        display: block
+.cards
+  display: flex
+  flex-wrap: wrap
+  justify-content: space-between
+.card
+  &-item
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    margin-top: 49px
+    min-height: 441px
+    text-decoration: none
+    &__image
+      width: 260px
+      height: 350px
+      object-fit: cover
+      border-radius: 8px
+      background-position: top
+      background-repeat: no-repeat
+    &__title
+      color: $primary
+      font-family: HKGrotesk
+      font-style: normal
+      font-weight: bold
+      font-size: 24px
+      line-height: 32px
+      margin-left: 14px
+    &__price-block
+      display: flex
+      justify-content: space-between
+      align-items: center
+    &-price
+      color: $text-color
+      margin-left: 14px
+      font-style: normal
+      font-weight: normal
+      font-size: 20px
+      line-height: 36px
+    &__cart
+      width: 23px
+      height: 23px
+      cursor: pointer
+    &__more
+      display: flex
+      justify-content: center
+      align-items: center
+      width: 260px
+      height: 350px
+      background-color: $blue
+      border-radius: 8px
+      cursor: pointer
+      &-image
+        width: 28px
+        height: 28px
+        margin-bottom: 25px
+      &-text 
+        font-family: HKGrotesk
+        font-style: normal
+        font-weight: bold
+        font-size: 24px
+        line-height: 32px
+    &__link
+      display: flex
+      align-items: center
+      flex-direction: column
+      text-decoration: none
+      color: #ffffff
+      cursor: pointer
+
+
