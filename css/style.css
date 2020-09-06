@@ -32,6 +32,18 @@ body {
   line-height: 60px;
 }
 
+.input {
+  outline: none;
+}
+
+.invalid {
+  color: #ec8c1f;
+}
+
+.tabs-content__item {
+  display: none;
+}
+
 button:focus {
   outline: none;
 }
@@ -701,6 +713,10 @@ template {
   list-style-type: none;
 }
 
+.tabs-content__item {
+  display: none;
+}
+
 .tabs-content__item--active {
   display: block;
 }
@@ -1061,7 +1077,7 @@ template {
   background-color: #1565D8;
 }
 
-.subscribe-button-thank {
+.subscribe-button-thank, .subscribe-button-thank__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1081,7 +1097,105 @@ template {
   background-color: #183B56;
 }
 
-.subscribe-button-thank:hover {
+.subscribe-button-thank:hover, .subscribe-button-thank__link:hover {
   background-color: #11283a;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  padding: 128px 150px 80px 150px;
+}
+
+.footer-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 76px;
+}
+
+.footer-info {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-right: 25px;
+}
+
+.footer-info__logo {
+  margin-bottom: 28px;
+}
+
+.footer-info__text {
+  width: 263px;
+  margin-bottom: 32px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.footer-info__image {
+  margin-right: 6px;
+}
+
+.footer-menu {
+  display: flex;
+}
+
+.footer-menu__column {
+  width: 165px;
+  margin-right: 30px;
+}
+
+.footer-menu__column-more {
+  margin-right: 0;
+}
+
+.footer-menu__title {
+  margin-bottom: 7px;
+  color: #183B56;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.footer-menu__items {
+  color: #183B56;
+  list-style: none;
+  padding: 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.footer-menu__item {
+  margin-top: 26px;
+}
+
+.footer-menu__link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer-menu__link:hover {
+  color: #1565D8;
+}
+
+.footer-copyright {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-copyright__image {
+  margin-bottom: 24px;
+}
+
+.footer-copyright__text {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
 }
 /*# sourceMappingURL=style.css.map */
