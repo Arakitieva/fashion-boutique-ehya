@@ -1,0 +1,101 @@
+.swiper
+  &-button
+    &-disabled
+      border: 2px solid #959EAD!important
+      fill: #959EAD
+.stories
+  &-container
+    display: flex
+    justify-content: space-between
+    max-width: 1150px
+    margin: auto
+    padding-top: 130px
+    border-top: 1px solid #E5EAF4
+  &-info
+    display: flex
+    flex-direction: column
+    min-width: 322px
+    &__subtitle
+      width: 88px
+      height: 32px
+      padding: 6px 16px
+      margin-bottom: 28px
+      border-radius: 2000px
+      background-color: rgba(54, 181, 128, 0.1)
+      color: #36B37E
+      text-transform: uppercase
+      font-style: normal
+      font-weight: 600
+      font-size: 14px
+      line-height: 20px
+    &__title
+      color: $primary
+      max-width: 290px
+      margin: 0 0 24px 0
+    &__description
+      max-width: 88%
+      margin-top: 0
+      margin-bottom: 42px
+      font-style: normal
+      font-weight: normal
+      font-size: 20px
+      line-height: 36px
+    &__button
+      width: 56px
+      height: 56px
+      margin-right: 14px
+      margin-bottom: 68px
+      border-radius: 50%
+      border: 2px solid $primary
+      background-color: #ffff
+      cursor: pointer
+    &__icon
+      width: 14px
+      height: 18px
+      fill: inherit
+  &-slider
+    display: flex
+    justify-content: space-between
+    &__item
+      display: flex
+      justify-content: space-between
+  &-card
+    min-width: 322px
+    margin-left: 25px
+    &__image
+      position: relative
+      display: flex
+      width: 312px
+      max-height: 317px
+      border-radius: 8px 8px 0 0
+      overflow: hidden
+    &__info
+      position: relative
+      display: flex
+      flex-direction: column
+      justify-content: center
+      background: #FAFDFF
+      width: 312px
+      min-height: 178px
+      margin-top: -20px
+      margin-left: 10px
+      padding: 20px
+    &__title
+      max-width: 260px
+      margin-bottom: 12px
+      color: $primary
+      font-family: HKGrotesk
+      font-style: normal
+      font-weight: 600
+      font-size: 22px
+      line-height: 32px
+      margin-bottom: 12px
+    &__link
+      color: $blue
+      text-decoration: none
+      font-style: normal
+      font-weight: 600
+      font-size: 16px
+      line-height: 22px
+      &:hover
+        color: $primary
